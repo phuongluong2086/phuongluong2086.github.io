@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Phuong Luong"
+  navbar:
+    background: "#102f2a"
+    foreground: "#ffffff"
+    left:
+      - text: About
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Maps & Data
+        href: maps.qmd
+      - text: Contact
+        href: contact.qmd
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    page-layout: full
+    title-block-banner: false

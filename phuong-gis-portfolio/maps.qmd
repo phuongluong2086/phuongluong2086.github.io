@@ -1,0 +1,18 @@
+---
+title: ""
+format:
+  html:
+    title-block: false
+---
+
+```{=html}
+<section class="page-hero">
+  <div class="section-label">03 / Maps & data</div>
+  <h1>Explore my<br><span>geospatial work.</span></h1>
+  <p>This space will host selected public maps, interactive layers and geospatial visualizations.</p>
+</section>
+
+<section class="section">
+  <div class="map-demo"><div class="map-overlay"><strong>Interactive map</strong><span>Land cover · Reference data · Vietnam</span></div></div>
+</section>
+```

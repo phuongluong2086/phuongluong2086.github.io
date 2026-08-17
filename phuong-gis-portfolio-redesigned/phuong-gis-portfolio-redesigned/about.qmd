@@ -1,0 +1,26 @@
+---
+title: ""
+format:
+  html:
+    title-block: false
+---
+
+```{=html}
+<section class="page-hero">
+  <div class="section-label">01 / About me</div>
+  <h1>GIS, remote sensing<br><span>& geospatial applications.</span></h1>
+</section>
+
+<section class="about section">
+  <div class="about-photo"><img src="assets/phuong-profile.jpg" alt="Phuong Luong"></div>
+  <div class="about-content">
+    <div class="eyebrow">A little about me</div>
+    <h2>Turning spatial data into meaningful information.</h2>
+    <p class="large">I am a GIS Analyst with 7+ years of experience working with remote sensing, spatial data and mapping workflows.</p>
+    <p>My work focuses on land cover mapping, agricultural monitoring, geospatial reference data and validation. I enjoy connecting satellite imagery, spatial analysis and reliable reference data to create practical geospatial products and tools.</p>
+    <div class="stats"><div><strong>7+</strong><span>Years experience</span></div><div><strong>GIS</strong><span>Core expertise</span></div><div><strong>RS</strong><span>Remote sensing</span></div></div>
+    <h3>Tools & technologies</h3>
+    <div class="tool-list"><span>QGIS</span><span>Google Earth Engine</span><span>R</span><span>Python</span><span>ArcGIS</span><span>Sentinel-1/2</span><span>Planet</span><span>GeoPackage</span><span>Leaflet</span></div>
+  </div>
+</section>
+```
