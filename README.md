@@ -3,6 +3,8 @@
 GIS and remote sensing portfolio — Phuong Luong.
 Built with [Quarto](https://quarto.org) and published with GitHub Pages.
 
+Live site: <https://phuongluong2086.github.io/>
+
 ## Build
 
 ```bash
