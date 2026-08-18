@@ -1,6 +1,9 @@
 ---
-title: "Phuong Luong — GIS & Remote Sensing"
+# Home page only: `pagetitle` + empty `title-prefix`. Quarto otherwise appends
+# the site name, giving "Phuong Luong — ... – Phuong Luong". Other pages keep
+# the normal `title:` so they read "About – Phuong Luong".
 pagetitle: "Phuong Luong — GIS & Remote Sensing"
+title-prefix: ""
 description: "GIS analyst working in remote sensing, land cover mapping, spatial analysis and geospatial reference data."
 listing:
   - id: featured-projects
