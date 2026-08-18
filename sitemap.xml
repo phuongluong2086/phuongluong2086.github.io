@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://phuongluong2086.github.io/projects.html</loc>
-    <lastmod>2026-08-18T02:35:07.010Z</lastmod>
+    <loc>https://phuongluong2086.github.io/skills.html</loc>
+    <lastmod>2026-08-18T07:07:02.659Z</lastmod>
   </url>
   <url>
-    <loc>https://phuongluong2086.github.io/projects/shade-tree.html</loc>
+    <loc>https://phuongluong2086.github.io/projects/web-gis.html</loc>
+    <lastmod>2026-08-18T07:07:02.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://phuongluong2086.github.io/projects/spatial-analysis.html</loc>
+    <lastmod>2026-08-18T07:07:02.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://phuongluong2086.github.io/projects/sample-earth.html</loc>
     <lastmod>2026-08-18T02:35:07.027Z</lastmod>
   </url>
   <url>
@@ -14,26 +22,38 @@
   </url>
   <url>
     <loc>https://phuongluong2086.github.io/index.html</loc>
-    <lastmod>2026-08-18T02:35:06.978Z</lastmod>
-  </url>
-  <url>
-    <loc>https://phuongluong2086.github.io/about.html</loc>
-    <lastmod>2026-08-18T02:35:06.633Z</lastmod>
+    <lastmod>2026-08-18T07:07:02.607Z</lastmod>
   </url>
   <url>
     <loc>https://phuongluong2086.github.io/contact.html</loc>
-    <lastmod>2026-08-18T02:46:51.345Z</lastmod>
+    <lastmod>2026-08-18T07:07:02.315Z</lastmod>
+  </url>
+  <url>
+    <loc>https://phuongluong2086.github.io/about.html</loc>
+    <lastmod>2026-08-18T07:25:37.704Z</lastmod>
+  </url>
+  <url>
+    <loc>https://phuongluong2086.github.io/experience.html</loc>
+    <lastmod>2026-08-18T07:07:02.434Z</lastmod>
   </url>
   <url>
     <loc>https://phuongluong2086.github.io/maps.html</loc>
     <lastmod>2026-08-18T02:35:06.978Z</lastmod>
   </url>
   <url>
-    <loc>https://phuongluong2086.github.io/projects/sample-earth.html</loc>
+    <loc>https://phuongluong2086.github.io/projects/remote-sensing.html</loc>
+    <lastmod>2026-08-18T07:07:02.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://phuongluong2086.github.io/projects/shade-tree.html</loc>
     <lastmod>2026-08-18T02:35:07.027Z</lastmod>
   </url>
   <url>
     <loc>https://phuongluong2086.github.io/projects/terra-i-plus.html</loc>
     <lastmod>2026-08-18T02:35:07.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://phuongluong2086.github.io/projects.html</loc>
+    <lastmod>2026-08-18T07:07:02.484Z</lastmod>
   </url>
 </urlset>
