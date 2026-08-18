@@ -1,0 +1,18 @@
+---
+title: ""
+format:
+  html:
+    title-block: false
+---
+
+```{=html}
+<section class="page-hero">
+  <div class="section-label">04 / Professional experience</div>
+  <h1>Experience that<br><span>shaped my skills.</span></h1>
+  <p>Professional experience is summarized at a high level. Detailed project outputs are intentionally not reproduced where ownership or data-sharing restrictions apply.</p>
+</section>
+<section class="experience section">
+  <div class="experience-item"><div class="year">CURRENT</div><div><h2>GIS Analyst</h2><p class="role">Alliance of Bioversity International and CIAT</p><p>Work across remote sensing, GIS, land cover mapping, geospatial reference data, validation and spatial-data workflows for agriculture and environmental applications.</p><div class="tool-list"><span>Remote sensing</span><span>Land cover mapping</span><span>Reference data</span><span>Validation</span><span>QGIS</span><span>Google Earth Engine</span><span>R</span><span>Python</span></div></div></div>
+  <div class="experience-note"><strong>Why are professional projects not shown in detail?</strong><p>This portfolio prioritizes shareable evidence of my own skills and respects project ownership, confidentiality and data-sharing constraints.</p></div>
+</section>
+```

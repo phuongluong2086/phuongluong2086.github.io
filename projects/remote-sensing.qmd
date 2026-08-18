@@ -1,0 +1,30 @@
+---
+title: ""
+format:
+  html:
+    title-block: false
+---
+
+```{=html}
+<section class="page-hero">
+  <div class="section-label">Personal skill demonstration</div>
+  <h1>Remote Sensing Analysis</h1>
+  <p>Sentinel-2 imagery, spectral indices and spatial interpretation.</p>
+</section>
+<section class="case-study section">
+  <div>
+    <div class="case-image satellite"></div>
+    <h2>The question</h2>
+    <p>Describe a focused spatial question that can be answered using openly available data.</p>
+    <h2>My approach</h2>
+    <p>Explain the GIS or remote-sensing workflow step by step. Keep the emphasis on your own technical decisions.</p>
+    <h2>Tools & data</h2>
+    <div class="tool-list"><span>QGIS</span><span>Google Earth Engine</span><span>Sentinel-2</span><span>R / Python</span></div>
+    <h2>Result</h2>
+    <p>Show the map, chart, web map or other output. Add a short interpretation of what it demonstrates.</p>
+    <h2>What this demonstrates</h2>
+    <ul><li>Technical GIS workflow</li><li>Spatial reasoning</li><li>Data processing</li><li>Clear map communication</li></ul>
+  </div>
+  <aside><div class="section-label">Portfolio note</div><p>This is a personal demonstration created with shareable data. It is not a reproduction of proprietary organizational work.</p></aside>
+</section>
+```

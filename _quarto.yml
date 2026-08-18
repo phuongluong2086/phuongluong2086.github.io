@@ -9,10 +9,12 @@ website:
     left:
       - text: About
         href: about.qmd
-      - text: Projects
+      - text: Personal Work
         href: projects.qmd
-      - text: Maps & Data
-        href: maps.qmd
+      - text: Skills
+        href: skills.qmd
+      - text: Experience
+        href: experience.qmd
       - text: Contact
         href: contact.qmd
 

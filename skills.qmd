@@ -1,0 +1,19 @@
+---
+title: ""
+format:
+  html:
+    title-block: false
+---
+
+```{=html}
+<section class="page-hero">
+  <div class="section-label">03 / Skills</div>
+  <h1>Technical skills<br><span>in practice.</span></h1>
+</section>
+<section class="skill-detail section">
+  <div><div class="section-label">Remote sensing</div><h2>Satellite imagery</h2><p>Image interpretation, preprocessing, spectral indices, time-series thinking and remote-sensing workflows.</p></div>
+  <div><div class="section-label">GIS</div><h2>Spatial data</h2><p>Raster and vector processing, spatial analysis, sampling, geospatial databases and map production.</p></div>
+  <div><div class="section-label">Programming</div><h2>Automation</h2><p>Google Earth Engine, R and Python for spatial data processing and reproducible workflows.</p></div>
+  <div><div class="section-label">Communication</div><h2>Maps that explain</h2><p>Cartography, visualization and clear communication of spatial results.</p></div>
+</section>
+```

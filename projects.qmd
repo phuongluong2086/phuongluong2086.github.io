@@ -7,27 +7,13 @@ format:
 
 ```{=html}
 <section class="page-hero">
-  <div class="section-label">02 / Selected work</div>
-  <h1>Projects that show<br><span>how I work.</span></h1>
-  <p>Selected work across remote sensing, land cover mapping, geospatial reference data and environmental monitoring.</p>
+  <div class="section-label">02 / Personal work</div>
+  <h1>Projects built to<br><span>show my skills.</span></h1>
+  <p>Small, focused and shareable demonstrations of GIS, remote sensing, spatial analysis and geospatial visualization.</p>
 </section>
-
 <section class="project-list section">
-  <a class="project-feature" href="projects/sample-earth.html">
-    <div class="project-image sample-earth"><div class="map-lines"></div><span class="project-number">01</span></div>
-    <div class="project-info"><div class="project-type">REFERENCE DATA · VALIDATION</div><h3>Sample Earth</h3><p>Building geospatial reference datasets to support land cover mapping and independent benchmarking.</p><span class="arrow">View case study ↗</span></div>
-  </a>
-  <a class="project-feature" href="projects/land-cover.html">
-    <div class="project-image land-cover"><span class="project-number">02</span></div>
-    <div class="project-info"><div class="project-type">LAND COVER · REMOTE SENSING</div><h3>Land Cover Mapping</h3><p>Satellite-based land cover mapping and validation workflows using Sentinel imagery.</p><span class="arrow">View case study ↗</span></div>
-  </a>
-  <a class="project-feature" href="projects/terra-i-plus.html">
-    <div class="project-image terra"><span class="project-number">03</span></div>
-    <div class="project-info"><div class="project-type">WEB GIS · MONITORING</div><h3>Terra-i+</h3><p>Geospatial platform integrating land cover, deforestation alerts and agricultural information.</p><span class="arrow">View case study ↗</span></div>
-  </a>
-  <a class="project-feature" href="projects/shade-tree.html">
-    <div class="project-image shade"><span class="project-number">04</span></div>
-    <div class="project-info"><div class="project-type">AGRICULTURE · REMOTE SENSING</div><h3>Shade Tree Mapping</h3><p>Satellite-based shade-tree mapping for coffee and pepper landscapes.</p><span class="arrow">View case study ↗</span></div>
-  </a>
+  <a class="project-feature" href="projects/remote-sensing.html"><div class="project-image satellite"><span class="project-number">01</span></div><div class="project-info"><div class="project-type">REMOTE SENSING</div><h3>Remote Sensing Analysis</h3><p>Satellite imagery, spectral indices and spatial interpretation.</p><span class="arrow">Explore skill demo ↗</span></div></a>
+  <a class="project-feature" href="projects/spatial-analysis.html"><div class="project-image spatial"><span class="project-number">02</span></div><div class="project-info"><div class="project-type">GIS · SPATIAL ANALYSIS</div><h3>Spatial Analysis</h3><p>Spatial processing and analysis presented as a reproducible mapping workflow.</p><span class="arrow">Explore skill demo ↗</span></div></a>
+  <a class="project-feature" href="projects/web-gis.html"><div class="project-image webgis"><span class="project-number">03</span></div><div class="project-info"><div class="project-type">WEB GIS</div><h3>Interactive Web Map</h3><p>A personal demonstration of web mapping and spatial storytelling.</p><span class="arrow">Explore skill demo ↗</span></div></a>
 </section>
 ```

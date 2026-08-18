@@ -7,9 +7,9 @@ format:
 
 ```{=html}
 <section class="contact-page">
-  <div class="section-label">04 / Contact</div>
-  <h1>Let's connect.</h1>
-  <p>Interested in GIS, remote sensing, geospatial data or sustainable agriculture and environmental applications?</p>
-  <div class="contact-links"><a href="mailto:luongphuong.2086@gmail.com">Email me ↗</a><a href="www.linkedin.com/in/phuong-luong-92291320b">LinkedIn ↗</a></div>
+  <div class="section-label">05 / Contact</div>
+  <h1>Let's talk<br>geospatial.</h1>
+  <p>Interested in GIS, remote sensing, spatial data or sustainable development?</p>
+  <div class="contact-links"><a href="mailto:your.email@example.com">Email ↗</a><a href="YOUR_LINKEDIN_URL">LinkedIn ↗</a></div>
 </section>
 ```
