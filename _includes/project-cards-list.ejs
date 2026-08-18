@@ -1,0 +1,27 @@
+<%
+// Projects page: every project rendered as a full-width feature card.
+//
+// Gotchas this template works around, so please keep the shape:
+//  * Output is re-parsed as markdown, so it must be ONE unindented line with no
+//    blank lines. Indented HTML turns into a <pre><code> block.
+//  * Use `outputHref` for links. `path` is the source path and on Windows it
+//    contains a backslash (/projects\remote-sensing.qmd) which markdown then
+//    mangles into a broken href.
+const num = (it, i) => it.number || String(it.order || i + 1).padStart(2, "0");
+const esc = (s) => String(s == null ? "" : s)
+  .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+let html = "";
+items.forEach((it, i) => {
+  html += '<a class="project-feature" href="' + esc(it.outputHref) + '">'
+    + '<div class="project-image ' + esc(it["image-class"] || "satellite") + '">'
+    + '<span class="project-number">' + num(it, i) + '</span>'
+    + '</div>'
+    + '<div class="project-info">'
+    + '<div class="project-type">' + esc(it["project-type"]) + '</div>'
+    + '<h3>' + esc(it.title) + '</h3>'
+    + '<p>' + esc(it.description) + '</p>'
+    + '<span class="arrow">Explore skill demo &#8599;</span>'
+    + '</div></a>';
+});
+%><%= html %>

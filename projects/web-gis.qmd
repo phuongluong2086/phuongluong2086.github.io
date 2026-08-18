@@ -1,30 +1,64 @@
 ---
-title: ""
-format:
-  html:
-    title-block: false
+title: "Interactive Web Map"
+description: "A personal web-mapping demonstration focused on clear spatial communication."
+project-type: "WEB GIS · VISUALIZATION"
+image-class: webgis
+order: 3
 ---
 
-```{=html}
-<section class="page-hero">
-  <div class="section-label">Personal skill demonstration</div>
-  <h1>Interactive Web Map</h1>
-  <p>A personal demonstration of web mapping and spatial storytelling.</p>
-</section>
-<section class="case-study section">
-  <div>
-    <div class="case-image webgis"></div>
-    <h2>The question</h2>
-    <p>Describe a focused spatial question that can be answered using openly available data.</p>
-    <h2>My approach</h2>
-    <p>Explain the GIS or remote-sensing workflow step by step. Keep the emphasis on your own technical decisions.</p>
-    <h2>Tools & data</h2>
-    <div class="tool-list"><span>QGIS</span><span>Google Earth Engine</span><span>Sentinel-2</span><span>R / Python</span></div>
-    <h2>Result</h2>
-    <p>Show the map, chart, web map or other output. Add a short interpretation of what it demonstrates.</p>
-    <h2>What this demonstrates</h2>
-    <ul><li>Technical GIS workflow</li><li>Spatial reasoning</li><li>Data processing</li><li>Clear map communication</li></ul>
-  </div>
-  <aside><div class="section-label">Portfolio note</div><p>This is a personal demonstration created with shareable data. It is not a reproduction of proprietary organizational work.</p></aside>
-</section>
-```
+::: {.page-hero}
+::: {.section-label}
+Personal skill demonstration
+:::
+# Interactive Web Map
+
+A personal demonstration of web mapping and spatial storytelling.
+:::
+
+::: {.case-study .band}
+::: {.case-main}
+::: {.case-image .webgis}
+:::
+
+::: {.draft-notice}
+**This case study is being written up.** The map is built; the write-up is in
+progress.
+:::
+
+## The question
+
+<!-- One or two sentences: what does this map let someone see or do that a
+     static figure could not? -->
+
+## My approach
+
+<!-- Data preparation, tiling/serving choices, interaction design decisions. -->
+
+## Tools & data
+
+::: {.tool-list}
+[Leaflet]{} [GeoJSON]{} [QGIS]{} [Python]{}
+:::
+
+## Result
+
+<!-- Embed the live map here. In Quarto this can be a raw HTML iframe, or an
+     executable {r} / {python} chunk that generates the widget at render time --
+     for example a leaflet::leaflet() or folium.Map() call. -->
+
+## What this demonstrates
+
+- Web mapping and spatial data delivery
+- Interaction and cartographic design
+- Data processing
+- Clear map communication
+:::
+
+::: {.case-side}
+::: {.section-label}
+Portfolio note
+:::
+A personal demonstration built from openly available data. Not a reproduction of
+proprietary organizational work.
+:::
+:::

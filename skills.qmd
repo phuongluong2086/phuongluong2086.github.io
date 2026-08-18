@@ -1,19 +1,61 @@
 ---
-title: ""
-format:
-  html:
-    title-block: false
+title: "Skills"
+description: "Remote sensing, spatial data, automation and cartographic communication."
 ---
 
-```{=html}
-<section class="page-hero">
-  <div class="section-label">03 / Skills</div>
-  <h1>Technical skills<br><span>in practice.</span></h1>
-</section>
-<section class="skill-detail section">
-  <div><div class="section-label">Remote sensing</div><h2>Satellite imagery</h2><p>Image interpretation, preprocessing, spectral indices, time-series thinking and remote-sensing workflows.</p></div>
-  <div><div class="section-label">GIS</div><h2>Spatial data</h2><p>Raster and vector processing, spatial analysis, sampling, geospatial databases and map production.</p></div>
-  <div><div class="section-label">Programming</div><h2>Automation</h2><p>Google Earth Engine, R and Python for spatial data processing and reproducible workflows.</p></div>
-  <div><div class="section-label">Communication</div><h2>Maps that explain</h2><p>Cartography, visualization and clear communication of spatial results.</p></div>
-</section>
-```
+::: {.page-hero}
+::: {.section-label}
+03 / Skills
+:::
+# Technical skills<br>[in practice.]{}
+:::
+
+::: {.skill-detail .band}
+::: {.skill-block}
+::: {.section-label}
+Remote sensing
+:::
+## Satellite imagery
+
+Image interpretation, preprocessing, spectral indices, time-series analysis and
+remote-sensing workflows.
+
+<!-- TODO: name sensors and methods. e.g. Sentinel-1 SAR backscatter,
+     Sentinel-2 surface reflectance, Landsat archives, harmonic time-series,
+     random forest classification, accuracy assessment. -->
+:::
+
+::: {.skill-block}
+::: {.section-label}
+GIS
+:::
+## Spatial data
+
+Raster and vector processing, spatial analysis, sampling design, geospatial
+databases and map production.
+
+<!-- TODO: name the software and formats you actually use. -->
+:::
+
+::: {.skill-block}
+::: {.section-label}
+Programming
+:::
+## Automation
+
+Google Earth Engine, R and Python for spatial data processing and reproducible
+workflows.
+
+<!-- TODO: name libraries — sf/terra/tidyverse, geopandas/rasterio/GDAL,
+     scikit-learn — and link a repo if you have one public. -->
+:::
+
+::: {.skill-block}
+::: {.section-label}
+Communication
+:::
+## Maps that explain
+
+Cartography, visualization and clear communication of spatial results.
+:::
+:::

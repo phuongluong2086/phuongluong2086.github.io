@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/remote-sensing.html",
+      "/projects/spatial-analysis.html",
+      "/projects/web-gis.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/remote-sensing.html",
+      "/projects/spatial-analysis.html",
+      "/projects/web-gis.html"
+    ]
+  }
+]

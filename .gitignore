@@ -1,7 +1,10 @@
-.quarto/
-_site/
+/.quarto/
 .Rproj.user/
 *.zip
-
-/.quarto/
 **/*.quarto_ipynb
+
+# NOTE: docs/ is the rendered site and IS committed — GitHub Pages serves it.
+# Do not ignore it.
+
+# Old output directory, no longer used.
+_site/

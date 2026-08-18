@@ -1,15 +1,26 @@
 ---
-title: ""
-format:
-  html:
-    title-block: false
+title: "Contact"
+description: "Get in touch about GIS, remote sensing, spatial data or sustainable development work."
 ---
 
-```{=html}
-<section class="contact-page">
-  <div class="section-label">05 / Contact</div>
-  <h1>Let's talk<br>geospatial.</h1>
-  <p>Interested in GIS, remote sensing, spatial data or sustainable development?</p>
-  <div class="contact-links"><a href="mailto:your.email@example.com">Email ↗</a><a href="YOUR_LINKEDIN_URL">LinkedIn ↗</a></div>
-</section>
-```
+::: {.contact-page}
+::: {.section-label}
+05 / Contact
+:::
+# Let's talk<br>geospatial.
+
+Interested in GIS, remote sensing, spatial data or sustainable development?
+
+<!-- TODO: narrow this to what you actually want. The line below is deliberately
+     broad because I don't know which of these you're really after — cutting it
+     to the one or two that matter will make it far more effective. -->
+
+Open to collaboration on geospatial work, questions about the methods behind
+anything on this site, and conversations about GIS and remote sensing roles.
+Email is the most reliable way to reach me.
+
+::: {.contact-links}
+[Email ↗](mailto:luongphuong.2086@gmail.com)
+[LinkedIn ↗](https://www.linkedin.com/in/phuong-luong-92291320b)
+:::
+:::

@@ -1,18 +1,59 @@
 ---
-title: ""
-format:
-  html:
-    title-block: false
+title: "Experience"
+description: "Professional background in GIS, remote sensing, land cover mapping and geospatial reference data."
 ---
 
-```{=html}
-<section class="page-hero">
-  <div class="section-label">04 / Professional experience</div>
-  <h1>Experience that<br><span>shaped my skills.</span></h1>
-  <p>Professional experience is summarized at a high level. Detailed project outputs are intentionally not reproduced where ownership or data-sharing restrictions apply.</p>
-</section>
-<section class="experience section">
-  <div class="experience-item"><div class="year">CURRENT</div><div><h2>GIS Analyst</h2><p class="role">Alliance of Bioversity International and CIAT</p><p>Work across remote sensing, GIS, land cover mapping, geospatial reference data, validation and spatial-data workflows for agriculture and environmental applications.</p><div class="tool-list"><span>Remote sensing</span><span>Land cover mapping</span><span>Reference data</span><span>Validation</span><span>QGIS</span><span>Google Earth Engine</span><span>R</span><span>Python</span></div></div></div>
-  <div class="experience-note"><strong>Why are professional projects not shown in detail?</strong><p>This portfolio prioritizes shareable evidence of my own skills and respects project ownership, confidentiality and data-sharing constraints.</p></div>
-</section>
-```
+::: {.page-hero}
+::: {.section-label}
+04 / Professional experience
+:::
+# Experience that<br>[shaped my skills.]{}
+
+Summarized at a high level, since some project outputs carry ownership or
+data-sharing restrictions.
+:::
+
+::: {.experience .band}
+
+::: {.experience-item}
+::: {.year}
+CURRENT
+:::
+::: {.experience-body}
+## GIS Analyst
+
+::: {.role}
+Alliance of Bioversity International and CIAT
+:::
+
+Work across remote sensing, GIS, land cover mapping, geospatial reference data,
+validation and spatial-data workflows for agriculture and environmental
+applications.
+
+<!-- TODO: add the start year next to CURRENT (e.g. "2022 — CURRENT").
+     Then replace the paragraph above with 2-3 concrete lines: what you built,
+     for which region, at what scale, with what result. -->
+
+::: {.tool-list}
+[Remote sensing]{} [Land cover mapping]{} [Reference data]{} [Validation]{}
+[QGIS]{} [Google Earth Engine]{} [R]{} [Python]{}
+:::
+:::
+:::
+
+<!-- TODO: add earlier roles as additional .experience-item blocks, copying the
+     structure above. An entry with a start and end year is worth more than a
+     longer description. -->
+
+<!-- TODO: add an Education block, and a link to a downloadable CV PDF
+     (drop the file in assets/ and link it here). Both are things recruiters
+     look for and currently cannot find on this site. -->
+
+::: {.experience-note}
+**Why are professional projects not shown in detail?**
+
+This portfolio prioritizes shareable evidence of my own skills and respects
+project ownership, confidentiality and data-sharing constraints.
+:::
+
+:::

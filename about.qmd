@@ -1,25 +1,46 @@
 ---
-title: ""
-format:
-  html:
-    title-block: false
+title: "About"
+description: "GIS analyst working with geospatial data on environmental and sustainability questions."
 ---
 
-```{=html}
-<section class="page-hero">
-  <div class="section-label">01 / About me</div>
-  <h1>GIS, remote sensing<br><span>portfolio.</span></h1>
-</section>
-<section class="about section">
-  <div class="about-photo"><img src="assets/phuong-profile.jpg" alt="Phuong Luong"></div>
-  <div class="about-content">
-    <div class="eyebrow">About me</div>
-    <h2>I’m a GIS Analyst passionate about using geospatial data to better understand our changing environment.</h2>
-    <p class="large">I work with geospatial data to explore environmental and sustainability-related questions, from satellite image interpretation and land cover mapping to spatial analysis and data visualization.</p>
-    <p class="large">I enjoy turning raw spatial data into clear, useful information and experimenting with different tools and workflows to solve GIS problems.</p>
-    <p>This portfolio highlights selected projects I have worked on and the GIS, remote sensing, and geospatial approaches I have explored across different applications.</p>
-    <h3>Core areas</h3>
-    <div class="tool-list"><span>Remote sensing</span><span>GIS</span><span>Land cover mapping</span><span>Geospatial data</span><span>Spatial analysis</span><span>Validation</span></div>
-  </div>
-</section>
-```
+::: {.page-hero}
+::: {.section-label}
+01 / About me
+:::
+# GIS, remote sensing<br>[portfolio.]{}
+:::
+
+::: {.about .band}
+::: {.about-photo}
+![](assets/phuong-profile.jpg){fig-alt="Phuong Luong, GIS analyst"}
+:::
+
+::: {.about-content}
+::: {.eyebrow}
+About me
+:::
+
+## I'm a GIS analyst passionate about using geospatial data to better understand our changing environment.
+
+I work with geospatial data to explore environmental and sustainability-related
+questions, from satellite image interpretation and land cover mapping to spatial
+analysis and data visualization.
+
+I enjoy turning raw spatial data into clear, useful information, and
+experimenting with different tools and workflows to solve GIS problems.
+
+<!-- TODO: replace the two paragraphs above with something only you could write.
+     Name a region you work on, a dataset you know well, a problem you solved.
+     Generic capability statements read the same on every GIS CV. -->
+
+This portfolio highlights selected projects I have worked on and the GIS, remote
+sensing and geospatial approaches I have explored across different applications.
+
+### Core areas
+
+::: {.tool-list}
+[Remote sensing]{} [GIS]{} [Land cover mapping]{} [Geospatial data]{}
+[Spatial analysis]{} [Validation]{}
+:::
+:::
+:::

@@ -1,19 +1,24 @@
 ---
-title: ""
-format:
-  html:
-    title-block: false
+title: "Personal Work"
+description: "Small, focused and shareable demonstrations of GIS, remote sensing, spatial analysis and geospatial visualization."
+listing:
+  - id: all-projects
+    contents: "projects/*.qmd"
+    template: _includes/project-cards-list.ejs
+    sort: "order asc"
 ---
 
-```{=html}
-<section class="page-hero">
-  <div class="section-label">02 / Personal work</div>
-  <h1>Projects built to<br><span>show my skills.</span></h1>
-  <p>Small, focused and shareable demonstrations of GIS, remote sensing, spatial analysis and geospatial visualization.</p>
-</section>
-<section class="project-list section">
-  <a class="project-feature" href="projects/remote-sensing.html"><div class="project-image satellite"><span class="project-number">01</span></div><div class="project-info"><div class="project-type">REMOTE SENSING</div><h3>Remote Sensing Analysis</h3><p>Satellite imagery, spectral indices and spatial interpretation.</p><span class="arrow">Explore skill demo ↗</span></div></a>
-  <a class="project-feature" href="projects/spatial-analysis.html"><div class="project-image spatial"><span class="project-number">02</span></div><div class="project-info"><div class="project-type">GIS · SPATIAL ANALYSIS</div><h3>Spatial Analysis</h3><p>Spatial processing and analysis presented as a reproducible mapping workflow.</p><span class="arrow">Explore skill demo ↗</span></div></a>
-  <a class="project-feature" href="projects/web-gis.html"><div class="project-image webgis"><span class="project-number">03</span></div><div class="project-info"><div class="project-type">WEB GIS</div><h3>Interactive Web Map</h3><p>A personal demonstration of web mapping and spatial storytelling.</p><span class="arrow">Explore skill demo ↗</span></div></a>
-</section>
-```
+::: {.page-hero}
+::: {.section-label}
+02 / Personal work
+:::
+# Projects built to<br>[show my skills.]{}
+
+Small, focused and shareable demonstrations of GIS, remote sensing, spatial
+analysis and geospatial visualization.
+:::
+
+::: {.project-list .band}
+::: {#all-projects}
+:::
+:::

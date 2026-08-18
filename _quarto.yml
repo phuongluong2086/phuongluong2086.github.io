@@ -1,22 +1,22 @@
 project:
   type: website
+  # Rendered site is committed to docs/ and served by GitHub Pages
+  # (Settings → Pages → Deploy from a branch → main → /docs).
+  output-dir: docs
+  resources:
+    - assets/**
+    - .nojekyll
 
 website:
   title: "Phuong Luong"
-  navbar:
-    background: "#102f2a"
-    foreground: "#ffffff"
-    left:
-      - text: About
-        href: about.qmd
-      - text: Personal Work
-        href: projects.qmd
-      - text: Skills
-        href: skills.qmd
-      - text: Experience
-        href: experience.qmd
-      - text: Contact
-        href: contact.qmd
+  description: "GIS analyst working in remote sensing, land cover mapping, spatial analysis and geospatial reference data."
+  site-url: "https://phuongluong2086.github.io"
+  favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card: true
+  # Navigation is a hand-written partial (_includes/nav.html) rather than the
+  # Quarto navbar, because `theme: none` means Bootstrap is not loaded and the
+  # built-in navbar would not render.
 
 format:
   html:
@@ -24,4 +24,8 @@ format:
     css: styles.css
     toc: false
     page-layout: full
-    title-block-banner: false
+    title-block-style: none
+    anchor-sections: false
+    include-in-header: _includes/head.html
+    include-before-body: _includes/nav.html
+    include-after-body: _includes/footer.html
